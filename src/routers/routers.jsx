@@ -8,7 +8,7 @@ export const  Router=() =>{
     <div>
       <Routes>
         <Route path='/' element= {<Form/>}/>
-        <Route path='/asteroid/:id'  element={<Asteroid/>}/>
+        <Route path='/asteroid'  element={<Asteroid/>}/>
       </Routes>
     </div>
   )
